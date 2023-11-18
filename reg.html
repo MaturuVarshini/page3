@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .f {
+            border: 10pxsolid rgb(155, 50, 64);
+            margin: 2px;
+            text-align: center;
+        }
+
+        lable textarea {
+            vertical-align: middle;
+        }
+
+        .button {
+            transition-duration: 0.4s;
+        }
+
+        .button:hover {
+            background-color: black;
+            color: aliceblue;
+            font-size: 16px;
+            margin: 4px 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 align="center">Registration Form</h2>
+    <form name="f" align="center">
+        <br>
+        <b>Name : </b><input type="text" placeholder="Enter your name">
+        <br><br>
+        <b>Password : </b><input type="text" placeholder="Enter strong password">
+        <br><br>
+        <b>
+            <lable for="email">Email</lable>
+        </b>
+        <input type="text" placeholder="Enter your email address">
+        <br><br>
+        <b>Phone number</b><input type="password" placeholder="Enter your phono number" maxlength="10">
+        <br><br>
+        <b>Gender : </b><input type="radio" name="1">Mail</input>
+        <input type="radio" name="1">Femail</input>
+
+        <br><br>
+        <b>Language known:</b>
+        <input type="radio" name="a">Telugu </input>
+        <input type="radio" name="a">Eng</input>
+        <input type="radio" name="a">hindi </input>
+        <input type="radio" name="a">Tamil</input>
+
+        <br><br>
+        <b>Address : </b>
+        <lable>
+            <textarea rows="5" cols="15"></textarea>
+        </lable>
+        <br><br>
+        <button class="button">Submit</button>
+    </form>
+</body>
+
+</html>
